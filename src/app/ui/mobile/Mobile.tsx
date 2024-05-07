@@ -1,5 +1,10 @@
-import styles from "@/styles/mobile.module.css";
+"use client";
+
 import Image from "next/image";
+
+import styles from "@/styles/mobile.module.css";
+
+import { getResumeLink } from "helpers/getResumeLink";
 
 function Mobile() {
     return (
@@ -43,6 +48,20 @@ function Mobile() {
 
             <section className={`${styles.mobile} ${styles['pb-12']} ${styles['break-words']}`}>
                 <h2 className={`${styles["text-body-medium"]} ${styles["text-color-text"]}  ${styles["pt-16"]} ${styles["mb-12"]} ${styles["text-heading-large"]} ${styles["text-heading-large"]}`}>Featured</h2>
+                <div className={`${styles["full-width"]} ${styles["full-height"]} ${styles["flex-column"]}`}>
+                    <a className={`${styles["optional-action-target-wrappper"]}`} target="_blank" href={getResumeLink()}>
+                        <div className={`${styles["m2"]} ${styles["t-12"]} ${styles["t-black--light"]} ${styles["t-normal"]}`}>
+                            <span>Link</span>
+                        </div>
+                    </a>
+
+                    <a className={`${styles["optional-action-target-wrappper"]}`} target="_blank" href={getResumeLink()}>
+                        <div className={`${styles["responsive-container"]} ${styles["mr4"]}`}>
+                            <Image className={`${styles["responsive-image"]}`} width="320" height="195" src="/resume.jpeg" alt="Creator" />
+                        </div>
+                    </a>
+                </div>
+
             </section>
 
             <hr className={styles.line} />
