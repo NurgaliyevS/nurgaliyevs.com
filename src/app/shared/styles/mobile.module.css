@@ -43,6 +43,11 @@
   padding-bottom: 0.75rem; /* Converted from 12px */
 }
 
+.m2 {
+  margin: .8rem;
+  margin-left: 0;
+}
+
 .text-body-medium {
   font-size: 1rem;
   font-weight: 400;
@@ -87,3 +92,52 @@
   font-weight: 600;
 }
 
+.full-width {
+  width: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.optional-action-target-wrappper {
+  text-decoration: inherit;
+  color: inherit;
+
+  font-weight: 600;
+  font-size: 100%;
+}
+
+.t-12 {
+  font-size: 0.8rem;
+  line-height: 1.33333;
+}
+
+.t-black--light {
+  color: rgb(0 0 0/0.6);
+}
+
+.t-normal {
+  font-weight: 400;
+}
+
+.responsive-image {
+  width: 100%;
+  height: auto;
+}
+
+.response-container {
+  display: flex;
+}
+
+.mr4 {
+  margin-right: 1.6rem;
+}
