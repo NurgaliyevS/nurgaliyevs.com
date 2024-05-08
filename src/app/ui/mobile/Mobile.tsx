@@ -5,6 +5,9 @@ import Image from "next/image";
 import styles from "@/styles/mobile.module.css";
 
 import { getResumeLink } from "helpers/getResumeLink";
+import { getLinkedinLink } from "helpers/getLinkedinLink";
+import { getEmail } from "helpers/getEmail";
+import { getAbout } from "helpers/getAbout";
 
 function Mobile() {
     return (
@@ -24,7 +27,7 @@ function Mobile() {
 
                 <div className={styles["mt-2"]}>
                     <span className={`${styles["text-body-small"]} ${styles["break-words"]}`}>
-                        Visa Required
+                        {getEmail()} | <a className={`${styles['optional-action-link']}`} target="_blank" href={getLinkedinLink()}>linkedin</a> | visa required
                     </span>
                 </div>
             </section>
@@ -36,10 +39,7 @@ function Mobile() {
 
                 <div className={`${styles["summary-container"]} ${styles["mr-16"]}`}>
                     <div className={`${styles["body-small"]} ${styles["text-color-text"]} ${styles["whitespace-pre-line"]} ${styles["description"]}`}>
-                        Frontend Developer with 3+ years of experience in web development. Proficient in building
-                        scalable, performance-efficient, and user-centric web applications. Passionate about
-                        solving human problems and contributing to product development with technical and
-                        analytical skills.
+                        {getAbout()}
                     </div>
                 </div>
             </section>
@@ -68,7 +68,6 @@ function Mobile() {
                                 <span>Google Docs</span>
                             </div>
                         </div>
-
                     </a>
                 </div>
             </section>
