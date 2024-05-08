@@ -44,7 +44,7 @@
 }
 
 .m2 {
-  margin: .8rem;
+  margin: 0.8rem;
   margin-left: 0;
 }
 
@@ -59,6 +59,12 @@
   font-weight: 400;
   line-height: 1.25;
   color: rgba(0, 0, 0, 0.6);
+}
+
+.text-body-xsmall {
+  font-size: 0.6rem;
+  font-weight: 400;
+  line-height: 1.25;
 }
 
 .text-color-text {
@@ -92,6 +98,12 @@
   font-weight: 600;
 }
 
+.text-heading-small {
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
 .full-width {
   width: 100%;
 }
@@ -114,7 +126,16 @@
 
   font-weight: 600;
   font-size: 100%;
+
+  cursor: pointer;
 }
+
+.optional-action-link {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
 
 .t-12 {
   font-size: 0.8rem;
@@ -140,4 +161,8 @@
 
 .mr4 {
   margin-right: 1.6rem;
+}
+
+.content-preview {
+  padding: 0.8rem 0;
 }
