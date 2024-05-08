@@ -50,7 +50,7 @@ function Mobile() {
                 <h2 className={`${styles["text-body-medium"]} ${styles["text-color-text"]}  ${styles["pt-16"]} ${styles["mb-12"]} ${styles["text-heading-large"]} ${styles["text-heading-large"]}`}>Featured</h2>
                 <div className={`${styles["full-width"]} ${styles["full-height"]} ${styles["flex-column"]}`}>
                     <a className={`${styles["optional-action-target-wrappper"]}`} target="_blank" href={getResumeLink()}>
-                        <div className={`${styles["m2"]} ${styles["t-12"]} ${styles["t-black--light"]} ${styles["t-normal"]}`}>
+                        <div className={`${styles["m2"]} ${styles["t-12"]} ${styles["t-normal"]}`}>
                             <span>Link</span>
                         </div>
                     </a>
@@ -58,15 +58,6 @@ function Mobile() {
                     <a className={`${styles["optional-action-target-wrappper"]}`} target="_blank" href={getResumeLink()}>
                         <div className={`${styles["responsive-container"]}`}>
                             <Image className={`${styles["responsive-image"]}`} width="320" height="195" src="/resume.jpeg" alt="Resume" priority />
-                        </div>
-
-                        <div className={`${styles["content-preview"]}`}>
-                            <div className={`${styles["display-flex"]} ${styles["flex-column"]} ${styles["text-heading-small"]} ${styles['break-words']}`}>
-                                <span>Front end developer CV</span>
-                            </div>
-                            <div className={`${styles["t-black--light"]} ${styles["text-body-xsmall"]} ${styles['break-words']}`}>
-                                <span>Google Docs</span>
-                            </div>
                         </div>
                     </a>
                 </div>
