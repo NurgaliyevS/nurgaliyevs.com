@@ -1,3 +1,3 @@
 export function getCurrentRole() {
-    return "Front end Developer"
+    return "Frontend Developer"
 }
