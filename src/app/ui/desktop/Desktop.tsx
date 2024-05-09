@@ -49,14 +49,21 @@ function Desktop() {
                                     <span
                                         className={`${styles["text-body-small"]} ${styles["break-words"]}`}
                                     >
-                                        {getEmail()} |{" "}
+                                        <a
+                                            className={`${styles["optional-action-link"]}`}
+                                            target="_blank"
+                                            href={`mailto:${getEmail()}`}
+                                        >
+                                            {getEmail()}
+                                        </a>
+                                        |
                                         <a
                                             className={`${styles["optional-action-link"]}`}
                                             target="_blank"
                                             href={getLinkedinLink()}
                                         >
                                             linkedin
-                                        </a>{" "}
+                                        </a>
                                         | visa required
                                     </span>
                                 </div>

@@ -129,3 +129,23 @@ input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
   transition: background-color 5000s ease-in-out 0s;
 }
+
+a:link {
+  text-decoration: none;
+  color: #0a66c2;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #0a66c2;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #0a66c2;
+}
+
+a:active {
+  text-decoration: none;
+  color: #0a66c2;
+}
