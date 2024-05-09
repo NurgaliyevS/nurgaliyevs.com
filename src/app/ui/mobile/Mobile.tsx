@@ -8,6 +8,8 @@ import { getResumeLink } from "helpers/getResumeLink";
 import { getLinkedinLink } from "helpers/getLinkedinLink";
 import { getEmail } from "helpers/getEmail";
 import { getAbout } from "helpers/getAbout";
+import { getCurrentRole } from "helpers/getCurrentRole";
+import { getFullName } from "helpers/getFullName";
 
 function Mobile() {
     return (
@@ -18,11 +20,11 @@ function Mobile() {
                 </div>
 
                 <div className={styles["mt-8"]}>
-                    <h1 className={`${styles["profile-heading"]} ${styles["break-words"]}`}>Sabyr Nurgaliyev</h1>
+                    <h1 className={`${styles["profile-heading"]} ${styles["break-words"]}`}>{getFullName()}</h1>
                 </div>
 
                 <div>
-                    <span className={`${styles["text-body-medium"]} ${styles["break-words"]}`}>Front end Developer</span>
+                    <span className={`${styles["text-body-medium"]} ${styles["break-words"]}`}>{getCurrentRole()}</span>
                 </div>
 
                 <div className={styles["mt-2"]}>
@@ -37,7 +39,7 @@ function Mobile() {
             <section className={`${styles.mobile} ${styles['pb-12']}`}>
                 <h2 className={`${styles["text-body-medium"]} ${styles["text-color-text"]}  ${styles["pt-16"]} ${styles["mb-12"]} ${styles["text-heading-large"]}`}>About</h2>
 
-                <div className={`${styles["summary-container"]} ${styles["mr-16"]}`}>
+                <div className={`${styles["mr-16"]}`}>
                     <div className={`${styles["body-small"]} ${styles["text-color-text"]} ${styles["whitespace-pre-line"]} ${styles["description"]}`}>
                         {getAbout()}
                     </div>
@@ -62,6 +64,7 @@ function Mobile() {
                     </a>
                 </div>
             </section>
+            <footer className={`${styles["global-footer"]}`}></footer>
         </>
     );
 }
