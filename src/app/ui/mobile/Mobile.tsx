@@ -36,15 +36,15 @@ function Mobile() {
                         >
                             {getEmail()}
                         </a>
-                        |
+                        | 
                         <a
                             className={`${styles["optional-action-link"]}`}
                             target="_blank"
                             href={getLinkedinLink()}
                         >
-                            linkedin
+                        linkedin
                         </a>
-                        | visa required
+                        |work permit required
                     </span>
                 </div>
             </section>

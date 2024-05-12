@@ -62,9 +62,9 @@ function Desktop() {
                                             target="_blank"
                                             href={getLinkedinLink()}
                                         >
-                                            linkedin
+                                        linkedin
                                         </a>
-                                        | visa required
+                                        |work permit required
                                     </span>
                                 </div>
                             </div>
