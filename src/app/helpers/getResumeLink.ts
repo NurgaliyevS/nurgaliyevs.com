@@ -1,3 +1,3 @@
 export function getResumeLink() {
-    return "https://drive.google.com/file/d/1X1C0K6kkKMrza6ZBW0U9jEMCzD5VEn5G/view"
+    return "https://drive.google.com/file/d/1Qtb9M5t11AV4o_2x0SmHoei6MNZ5E23V/view?usp=sharing"
 }
