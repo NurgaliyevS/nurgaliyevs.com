@@ -10,7 +10,7 @@ const openSans = Open_Sans({
 
 export const metadata: Metadata = {
   title: "Sabyr Nurgaliyev",
-  description: "Personal website of Nurgaliyev Sabyr",
+  description: "Front-end developer portfolio",
 };
 
 export default function RootLayout({
