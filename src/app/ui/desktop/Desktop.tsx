@@ -64,7 +64,7 @@ function Desktop() {
                                         >
                                         linkedin
                                         </a>
-                                        |work permit required
+                                        |work permit required or remote|GMT+5
                                     </span>
                                 </div>
                             </div>
