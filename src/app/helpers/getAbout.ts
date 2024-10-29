@@ -1,5 +1,5 @@
 export function getAbout() {
-    return `• Front-end developer with 4 years of experience in fintech, banking, and insurance industries
+    return `• Front-end developer with 5 years of experience in fintech, banking, and insurance industries
     • Developed a personalized advertising banner system for over 20,000 monthly active B2B users
     • Created an automated recruitment system to streamline paperwork processes
     
