@@ -24,13 +24,13 @@ const Index = () => {
             </p>
             <div className="flex justify-center gap-4">
               <Button variant="outline" asChild>
-                <a href="mailto:nurgaliyevs000@gmail.com" className="flex items-center gap-2">
+                <a href="mailto:nurgasab@gmail.com" className="flex items-center gap-2">
                   <Mail className="w-4 h-4" />
                   Contact
                 </a>
               </Button>
               <Button variant="outline" asChild>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                <a href="https://www.linkedin.com/in/sabyr-nurgaliyev-43b4a822a/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                   <Linkedin className="w-4 h-4" />
                   LinkedIn
                 </a>
@@ -134,10 +134,10 @@ const Index = () => {
         {/* Footer */}
         <footer className="text-center text-gray-600 py-8 fade-in">
           <div className="flex justify-center gap-4">
-            <a href="mailto:nurgaliyevs000@gmail.com" className="hover:text-gray-900 transition-colors">
+            <a href="mailto:nurgasab@gmail.com" className="hover:text-gray-900 transition-colors">
               <Mail className="w-5 h-5" />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900 transition-colors">
+            <a href="https://www.linkedin.com/in/sabyr-nurgaliyev-43b4a822a/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900 transition-colors">
               <Linkedin className="w-5 h-5" />
             </a>
             <a href="https://github.com/NurgaliyevS" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900 transition-colors">
