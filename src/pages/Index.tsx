@@ -140,7 +140,7 @@ const Index = () => {
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900 transition-colors">
               <Linkedin className="w-5 h-5" />
             </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900 transition-colors">
+            <a href="https://github.com/NurgaliyevS" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900 transition-colors">
               <Github className="w-5 h-5" />
             </a>
           </div>
